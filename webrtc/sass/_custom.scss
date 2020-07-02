@@ -1,0 +1,109 @@
+body{
+    background: #1a1a1a ;
+
+}
+
+#loading{
+    width: 100%;
+    height: 100vh;
+    background: url('loading.gif') no-repeat center;
+    z-index: 9999;
+
+}
+
+nav{
+.navbar{
+    background: #4dff4d !important;
+    .nav-links li a{
+        
+                color: #e6eeff;
+    }
+}
+}
+
+
+.carousel{
+    height: 600px !important;
+
+    img{
+        height: 600px;
+    }
+
+    .btn-primary{
+        background: #b3b3b3;
+    }
+}
+
+.section-a{
+    margin-top: 40px;
+
+    .container{
+        padding: 20px 30px 30px 30px;
+
+        .col-md-4{
+            padding-left: 20px;
+        }
+    }
+
+}
+
+.section-d{
+    height: 500px;
+    background: url(../img/phone1.jpg) no-repeat 0 -400px;
+}
+
+.section-b{
+    margin-top: 50px;
+    
+
+    .showcase-left{
+        margin-left: 100px;
+        img{
+            width: 100%;
+        }
+    }
+
+    .showcase-right{
+        padding: 100px 0 0 0;
+    }
+}
+
+.section-hr{
+    margin-top: 50px;
+}
+
+.section-c{
+    height: 700px;
+    margin-top: 50px;
+    margin-bottom: 0;
+
+    .showcase-left{
+        padding: 0;
+    }
+
+    .showcase-right{
+        padding: 230px 0 0 0;
+    }
+}
+
+footer{
+    background: #39ac73;
+    height: 100px;
+
+    .section-b{
+        padding: 40px 30px 0px 30px;
+        
+        .showcase-right1{
+            padding-left: 20px;
+            .fa{
+                padding-left: 100px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px){
+    body{
+        display: none;
+    }
+}
